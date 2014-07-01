@@ -1,6 +1,6 @@
 var cs = require('coffee-script');
-var calculate = require('sse4_crc32').calculate;
-
+// var calculate = require('sse4_crc32').calculate;
+var calculate = require('crc32')
 var cache = Object.create(null);
 
 exports = module.exports = function (options) {

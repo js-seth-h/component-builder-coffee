@@ -1,3 +1,9 @@
+# fork, Why?
+
+[builder-coffee-script](https://github.com/component/builder-coffee) is not working on my dld server without supporting SSE4.
+
+this is a version adopting [crc32](https://github.com/beatgammit/crc32).
+
 # builder-coffee-script
 
 Coffee Script plugin for [component-builder2](https://github.com/component/builder2.js).
@@ -9,7 +15,7 @@ Coffee Script plugin for [component-builder2](https://github.com/component/build
 
 ```js
 var build = require('component-builder2');
-var coffee = require('builder-coffee-script');
+var coffee = require('component-builder-coffee');
 
 build.scripts(nodes)
   .use('scripts', build.plugins.js())
@@ -25,7 +31,7 @@ You could put your coffee-script files in `.scripts` or create your own field li
 
 The MIT License (MIT)
 
-Copyright (c) 2014 Jonathan Ong me@jongleberry.com
+Copyright (c) 2014 junsik &lt;js@seth.h@google.com&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -1,25 +1,19 @@
 {
-  "name": "builder-coffee-script",
+  "name": "component-builder-coffee",
   "description": "coffee-script plugin for component-builder2",
-  "version": "0.1.1",
-  "author": {
-    "name": "Jonathan Ong",
-    "email": "me@jongleberry.com",
-    "url": "http://jongleberry.com",
-    "twitter": "https://twitter.com/jongleberry"
-  },
+  "version": "0.2.0",
+  "author": "js.seth.h <js.seth.h@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/component/builder-coffee-script.git"
+    "url": "https://github.com/js-seth-h/component-builder-coffee.git"
   },
   "bugs": {
-    "mail": "me@jongleberry.com",
-    "url": "https://github.com/component/builder-coffee-script/issues"
+    "url": "https://github.com/js-seth-h/component-builder-coffee/issues"
   },
   "dependencies": {
-    "sse4_crc32": "^1.1.3",
-    "coffee-script": "*"
+    "coffee-script": "*",
+    "crc32": "^0.2.2"
   },
   "devDependencies": {
     "mkdirp": "*",
